@@ -1,0 +1,58 @@
+.why {
+	position: relative;
+	background-color: #282f38;
+	border-radius: 10px;
+	color: #fefcf7;
+	text-align: center;
+    margin-bottom: 300px;
+}
+.why__title {
+	padding: 120px 0 32px;
+	font-size: 40px;
+	font-family: "Fraunces";
+	font-weight: 900;
+	margin: 0;
+}
+.why__text {
+	font-family: "Barlow";
+	padding: 0 350px 250px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	margin: 0;
+}
+
+.why__cards {
+	position: absolute;
+    bottom: -150px;
+	display: flex;
+	gap: 30px;
+	padding: 0 85px;
+
+}
+.why__card {
+	width: 33%;
+	background-color: #0e8784;
+	border-radius: 8px;
+	padding: 48px;
+}
+.why__card img {
+	width: 70px;
+	vertical-align: bottom;
+	height: 70px;
+}
+.why__car {
+	height: 50px !important;
+	padding: 10px 0;
+}
+.why__card--title {
+	font-family: "Fraunces";
+	font-weight: 900;
+	font-size: 24px;
+}
+.why__card--text {
+	font-family: "Barlow";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}

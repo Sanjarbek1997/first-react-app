@@ -1,0 +1,33 @@
+#our {
+	position: relative;
+	display: flex;
+    gap: 30px;
+	padding: 200px 0;
+}
+#our svg {
+	position: absolute;
+	top: 70px;
+	width: 100%;
+	z-index: -555;
+}
+.card {
+	text-align: center;
+}
+.card:last-child img {
+	margin-top: 15px;
+}
+
+.card__title {
+	font-family: "Fraunces";
+	font-weight: 900;
+	font-size: 24px;
+	color: #333d4b;
+	margin-bottom: 24px;
+}
+.card__text {
+	font-size: 16px;
+	font-family: "Barlow";
+	line-height: 26px;
+	color: #333d4b;
+    padding: 0 20px;
+}

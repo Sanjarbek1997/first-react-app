@@ -1,0 +1,19 @@
+#showcase {
+    padding: 117px 85px;
+    color: #FEFCF7;
+    font-family: "Fraunces";
+background-color: #A2A2A2;
+border-radius: 20px;
+}
+.showcase__title {
+    font-size: 72px;
+    line-height: 72px;
+    width: 500px;
+    margin: 0;
+}
+.showcase__text {
+    font-size: 16px;
+    font-family: "Barlow";
+    width: 450px;
+    padding: 32px 0;
+}

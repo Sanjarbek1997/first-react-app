@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0;
+}
+.navbar__list {
+    display: flex;
+    list-style: none;
+    gap: 30px; 
+}
+.navbar__list a {
+text-decoration: none;
+color: #83888F;
+font-weight: 700;
+font-size: 15px;
+letter-spacing:  0.923077px;
+font-family: "Barlow";
+}

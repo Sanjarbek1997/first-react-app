@@ -1,0 +1,33 @@
+footer {
+    background-color: #282f38;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 85px;
+
+}
+
+.footer__list {
+    flex-grow: 1;
+    display: flex;
+    margin: 0;
+    margin-left: 100px;
+    list-style: none;
+    gap: 20px;
+    padding:  0;
+    color: #83888F;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+    font-family: "Barlow";
+    letter-spacing: .92px;
+}
+
+.footer__list a {
+    color: inherit;
+    text-decoration: none;
+}
+.icons a {
+    /* display: inline-block; */
+    margin-left: 20px;
+}

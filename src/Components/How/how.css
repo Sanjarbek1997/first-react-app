@@ -1,0 +1,60 @@
+.how {
+	margin-bottom: 200px;
+}
+.how__title {
+	font-family: "Fraunces 9pt";
+	color: #83888f;
+	font-size: 24px;
+	font-weight: 900;
+	margin-bottom: 100px;
+}
+.how__cards {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 80px;
+	position: relative;
+	/* background-color: #fff; */
+}
+.how__cards svg {
+	position: relative;
+	z-index: 2;
+	background-color: #fff;
+}
+.how__cards::after {
+	content: "";
+	position: absolute;
+	width: 72%;
+
+	border: 1px solid #fdd6ba;
+	/* z-index: -555; */
+	top: 15px;
+}
+.how__card {
+	width: 33%;
+}
+.how__card--num {
+	color: #fdd6ba;
+	font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 72px;
+    margin: 67px 0 38px;
+}
+.how__card--title {
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0;
+    width: 70%;
+    color: #333D4B;
+}
+.how__card--text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 42px 0 64px;
+    color: #333D4B;
+}
