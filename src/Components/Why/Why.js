@@ -1,9 +1,9 @@
 import WhyCard from "./WhyCard";
+import { Cofe,Gift,Car } from "../../Assets/Icon/Icon";
 
-
-import Cofe from "../../Assets/Img/Shape.png";
-import Gift from "../../Assets/Img/Shape1.png";
-import Car from "../../Assets/Img/Shape2.png";
+// import Cofe from "../../Assets/Img/Shape.png";
+// import Gift from "../../Assets/Img/Shape1.png";
+// import Car from "../../Assets/Img/Shape2.png";
 
 import "./why.css";
 
@@ -19,7 +19,7 @@ const Why = () => {
 			<div className='why__cards'>
                 
 				<WhyCard
-					svg={Cofe}
+					Svg={<Cofe/>}
 					title={"Best quality"}
 					text={
 						"Discover an endless variety of the world’s best artisan coffee from each of our roasters."
@@ -27,7 +27,7 @@ const Why = () => {
 				/>
                 
 				<WhyCard
-					svg={Gift}
+					Svg={<Gift/>}
 					title={"Exclusive benefits"}
 					text={
 						"Special offers and swag when you subscribe, including 30% off your first shipment."
@@ -35,7 +35,7 @@ const Why = () => {
 				/>
                 
 				<WhyCard
-					svg={Car}
+					Svg={<Car className="why__car"/>}
                     car={"why__car"}
 					title={"Free shipping"}
 					text={
