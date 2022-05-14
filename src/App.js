@@ -6,7 +6,6 @@ import Why from "./Components/Why/Why";
 import Footer from "./Components/Footer/Footer";
 import How from "./Components/How/How";
 
-import "./app.css";
 
 function App() {
 	// const params = useParams();
